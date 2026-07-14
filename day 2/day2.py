@@ -5,7 +5,7 @@ print("El resultado es: ", sum([20,30,40,50]));
 
 """Convención de variables:
 -Deben empezar por una letra o guión bajo
--No puede empezar por un núero
+-No puede empezar por un número
 -Tienen que ser descriptivos
 -Solo puede contener caracteres alfanuméricos y guiones bajos
 -Es case-sensitive
