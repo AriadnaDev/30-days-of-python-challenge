@@ -196,4 +196,12 @@ print(company.title())
 print(company.swapcase())
 
 #4.
+print(company[6:])
 
+#5. 
+incluye = company.find("Coding")
+print("Coding está en la posición", incluye)
+
+#6.
+palabra = "Python",
+print(company.replace("All", palabra))
