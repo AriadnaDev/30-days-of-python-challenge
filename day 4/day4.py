@@ -203,5 +203,52 @@ incluye = company.find("Coding")
 print("Coding está en la posición", incluye)
 
 #6.
-palabra = "Python",
-print(company.replace("All", palabra))
+print(company.replace("All", "Python"))
+
+#7.
+print(company.split(" "))
+
+#8. 
+platform = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(platform.split(","))
+
+#9
+print("índice 0 de la frase company: ", company[0])
+
+#10
+print("índice último de la frase company: ", company[-1])
+
+#11
+print("índice 10 de la frase company: ", company[10])
+
+#12
+print(company.index("C"))
+
+#13
+print(company.index("F"))
+
+#14
+print(company.index("l"))
+
+#15
+frase =  'You cannot end a sentence with because because because is a conjunction'
+encontrar = frase.find("because")
+print(frase[:encontrar])
+
+#16
+company_2 = ' Coding for All ';
+print("".join(company_2.split()))
+
+#17
+frase2 = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+
+print("\ ".join(frase2))
+
+#18
+frase3 = "I am enjoying this challenge. \nI just wonder what is next."
+print(frase3)
+
+#19
+frase4 ="NAME\tAGE\tCOUNTRY\tCITY\nARI\t550\tEspaña\tOLEOLE"
+print(frase4)
+
